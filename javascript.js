@@ -22,11 +22,11 @@
 				 }
 			 }
 	 }
-	area.onmouseover=function(){
-		 clearInterval(time);
-	 }
-	 area.onmouseout=function(){
-		time=setInterval("scrollUp()",speed);
-	 }
-	 setTimeout(startScroll(),delay);
+area.onmouseover=function(){
+	 clearInterval(time);
+ }
+ area.onmouseout=function(){
+	time=setInterval("scrollUp()",speed);
+ }
+ setTimeout(startScroll(),delay);
 	 
